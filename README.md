@@ -6,27 +6,27 @@
   > 입력한 수가 홀짝인지 구분
   >
   > 
-  > 사용한 기능 : 나머지(%), 조건문 사용
+  > :pushpin: 나머지(%) | 조건문 사용
   
 - **temp_f_c.py**
   > 화씨 온도(℉) 입력 시 섭씨 온도(℃) 출력
   >
   >
-  > f2c 함수 지정 | f-string
+  > :pushpin: f2c 함수 지정 | f-string
   
-- **prime_number**
+- **prime_number.py**
   > 입력한 숫자가 소수인지 판별
   >
   > 
-  > 사용한 기능 : is_prime 함수 지정, 나머지(%)
+  > :pushpin: is_prime 함수 지정 | 나머지(%)
 
 - **find_prime_number.py**
   > 2~50 중 소수만 출력
   >
   > 
-  > 사용한 기능 : 반복문, 조건문, is_prime 함수 사용, 지능형 리스트
+  > :pushpin: 반복문 | 조건문, is_prime 함수 사용, 지능형 리스트
   
-- **factofial**
+- **factofial.py**
   > 입력한 숫자의 팩토리얼(!) 출력
   > 
   >
