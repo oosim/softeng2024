@@ -30,4 +30,4 @@
   > 입력한 숫자의 팩토리얼(!) 출력
   > 
   >
-  > :pencil2: factorial 함수 지정, 재귀 함수
+  > :pencil: factorial 함수 지정, 재귀 함수
