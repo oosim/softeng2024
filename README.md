@@ -21,7 +21,7 @@
   > :pencil2: is_prime 함수 지정 | 나머지(%)
 
 - **find_prime_number.py**
-  > 2~50 중 소수만 출력
+  > 숫자 2~50 중 소수만 출력
   >
   > 
   > :pencil2: 반복문 | 조건문 | is_prime 함수 사용 | 지능형 리스트
