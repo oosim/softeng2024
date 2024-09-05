@@ -2,7 +2,9 @@
 :round_pushpin: 과제 설명
 
 
-[**hw02**]
+
+
+### hw02
 
 
 - **hol_jjak.py**
