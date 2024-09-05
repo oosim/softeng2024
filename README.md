@@ -31,7 +31,7 @@
   > 
   > :pencil2: 반복문 | 조건문 | is_prime 함수 사용 | 지능형 리스트
   
-- **factofial.py**
+- **factorial.py**
   > 입력한 숫자의 팩토리얼(!) 출력
   > 
   >
