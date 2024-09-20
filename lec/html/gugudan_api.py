@@ -22,19 +22,19 @@ def hello():
     <div id="results"></div>
 
  <script>
- function post_query() {
- $.ajax({
-     type: "GET",
-     url: "/dan/",
-     data: $("#form_id").serialize(),
-     success: update_result,
-     dataType: "html"
-     });
- }
- 
- function update_result(data) {
-    $("#results").html(data);
- }
+     function post_query() {
+     $.ajax({
+         type: "GET",
+         url: "/dan/",
+         data: $("#form_id").serialize(),
+         success: update_result,
+         dataType: "html"
+         });
+     }
+     
+     function update_result(data) {
+        $("#results").html(data);
+     }
  </script>
 
  </body>
