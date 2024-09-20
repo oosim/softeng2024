@@ -14,6 +14,7 @@ def hello():
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
  </head>
  <body>
+    <h2>구구단을 외우자 !</h2>
     <form id="form_id" action="javascript:post_query()">
         <input type="text" name="dan" value="7">
         <button type="submit">Go</button>
@@ -21,19 +22,20 @@ def hello():
     <div id="results"></div>
 
  <script>
-function post_query() {
-$.ajax({
-type: "GET",
-url: "/dan/",
-data: $("#form_id").serialize(),
-success: update_result,
-dataType: "html"
-});
-}
-function update_result(data) {
-$("#results").html(data);
-}
-</script>
+ function post_query() {
+ $.ajax({
+     type: "GET",
+     url: "/dan/",
+     data: $("#form_id").serialize(),
+     success: update_result,
+     dataType: "html"
+     });
+ }
+ 
+ function update_result(data) {
+    $("#results").html(data);
+ }
+ </script>
 
  </body>
  </html>
